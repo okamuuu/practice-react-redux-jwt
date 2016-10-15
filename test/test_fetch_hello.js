@@ -2,7 +2,6 @@ import assert from 'assert'
 import { createStore, applyMiddleware } from 'redux'
 import thunkMiddleware from 'redux-thunk'
 
-import api from '../src/middleware/api'
 import { fetchHello, login, fetchPrivateHello } from '../src/actions'
 import helloApp from '../src/reducers'
 
